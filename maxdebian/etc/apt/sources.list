@@ -1,0 +1,27 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 10.3.0 _Buster_ - Official amd64 DVD Binary-1 20200208-12:08]/ buster contrib main
+
+#deb cdrom:[Debian GNU/Linux 10.3.0 _Buster_ - Official amd64 DVD Binary-1 20200208-12:08]/ buster contrib main
+
+ deb http://security.debian.org/debian-security buster/updates main contrib
+ deb-src http://security.debian.org/debian-security buster/updates main contrib
+
+# buster-updates, previously known as 'volatile'
+# A network mirror was not selected during install.  The following entries
+# are provided as examples, but you should amend them as appropriate
+# for your mirror of choice.
+#
+ deb http://deb.debian.org/debian/ buster-updates main contrib
+ deb-src http://deb.debian.org/debian/ buster-updates main contrib
+ deb http://httpredir.debian.org/debian buster main non-free contrib
+ deb-src http://httpredir.debian.org/debian buster main non-free contrib
+
+ #deb http://security.debian.org/debian-security buster/updates main contrib non-free
+ #deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
+
+#deb http://bacula.org/downloads/baculum/debian buster main
+#deb-src http://bacula.org/downloads/baculum/debian buster main
+
+deb [ arch=amd64 ] http://bacula.org/downloads/baculum/stable/ubuntu xenial main
+deb-src http://bacula.org/downloads/baculum/stable/ubuntu xenial main

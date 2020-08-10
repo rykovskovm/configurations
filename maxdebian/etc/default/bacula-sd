@@ -1,0 +1,13 @@
+# defaults file for bacula-sd
+
+# Service can be disabled by setting
+# ENABLED="no"
+ENABLED="yes"
+
+# Default config file can be changed here
+# CONFIG="/etc/bacula/bacula-sd.conf"
+CONFIG="/etc/bacula/bacula-sd.conf"
+
+# bacula-sd rewinds tapes before stopping, if this takes long, you can
+# adjust the timeout before killing it from the init script here
+#STOPTIMEOUT="180"
