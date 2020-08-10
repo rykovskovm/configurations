@@ -63,3 +63,8 @@ systemd-coredump:x:999:
 bacula:x:122:www-data
 postgres:x:123:
 Debian-exim:x:124:
+gitlab-www:x:998:
+git:x:997:
+gitlab-redis:x:996:
+gitlab-psql:x:995:
+gitlab-prometheus:x:994:

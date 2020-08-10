@@ -60,6 +60,11 @@ colord:!::
 lightdm:!::
 max:!::
 systemd-coredump:!!::
-bacula:!::
+bacula:!::www-data
 postgres:!::
 Debian-exim:!::
+gitlab-www:!::
+git:!::
+gitlab-redis:!::
+gitlab-psql:!::
+gitlab-prometheus:!::

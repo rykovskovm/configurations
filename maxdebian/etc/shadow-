@@ -37,3 +37,7 @@ systemd-coredump:!!:18457::::::
 bacula:*:18458:0:99999:7:::
 postgres:*:18458:0:99999:7:::
 Debian-exim:!:18458:0:99999:7:::
+gitlab-www:!:18484::::::
+git:!:18484::::::
+gitlab-redis:!:18484::::::
+gitlab-psql:!:18484::::::
