@@ -1,20 +1,20 @@
 # Subscription configuration file for CUPS v2.2.10
 # Written by cupsd
-NextSubscriptionId 47
-<Subscription 39>
+NextSubscriptionId 49
+<Subscription 47>
 Events printer-changed
 Owner root
 LeaseDuration 86400
 Interval 60
-ExpirationTime 1597129779
+ExpirationTime 1597149966
 NextEventId 1
 </Subscription>
-<Subscription 40>
+<Subscription 48>
 Events all
 Owner anonymous
 Recipient dbus://
 LeaseDuration 86400
 Interval 0
-ExpirationTime 1597129780
-NextEventId 7
+ExpirationTime 1597236269
+NextEventId 1
 </Subscription>
