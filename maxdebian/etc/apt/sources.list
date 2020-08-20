@@ -20,9 +20,8 @@
  #deb http://security.debian.org/debian-security buster/updates main contrib non-free
  #deb-src http://security.debian.org/debian-security buster/updates main contrib non-free
 
-#deb http://bacula.org/downloads/baculum/debian buster main
-#deb-src http://bacula.org/downloads/baculum/debian buster main
-
 deb [ arch=amd64 ] http://bacula.org/downloads/baculum/stable/ubuntu xenial main
 deb-src http://bacula.org/downloads/baculum/stable/ubuntu xenial main
+
+deb https://zmrepo.zoneminder.com/debian/release-1.34 buster/
 #test

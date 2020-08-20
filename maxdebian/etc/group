@@ -68,3 +68,4 @@ git:x:997:
 gitlab-redis:x:996:
 gitlab-psql:x:995:
 gitlab-prometheus:x:994:
+mysql:x:125:
