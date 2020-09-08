@@ -1,0 +1,3 @@
+# USB devices (usbfs replacement)
+SUBSYSTEM=="usb", ATTRS{idVendor}=="14a8", MODE="0666"
+SUBSYSTEM=="usb_device", ATTRS{idVendor}=="14a8", MODE="0666"
