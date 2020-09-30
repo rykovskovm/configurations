@@ -104,22 +104,23 @@ Option cups-browsed true
 </Printer>
 <Printer Kyocera_ECOSYS_M2135dn_3_>
 UUID urn:uuid:6de75d2b-09b6-3ea5-6354-a4377430f6e7
-Info Kyocera ECOSYS M2135dn (3)
+Info 
 Location 
 MakeModel M2135dn - IPP Everywhere
 DeviceURI ipps://KM388555.local:443/ipp/print
 State Idle
 StateTime 1601457482
-ConfigTime 1601457484
+ConfigTime 1601457485
 Type 4180
 Accepting Yes
-Shared Yes
+Shared No
 JobSheets none none
 QuotaPeriod 0
 PageLimit 0
 KLimit 0
 OpPolicy default
 ErrorPolicy retry-job
+Option cups-browsed true
 </Printer>
 <Printer Kyocera_ECOSYS_M2135dn_KASSA>
 UUID urn:uuid:ee91f629-024c-3048-63b2-a77b9c4eb1df
@@ -302,15 +303,15 @@ ErrorPolicy retry-job
 Option cups-browsed true
 </Printer>
 <Printer Kyocera_ECOSYS_P3055dn_3_>
-UUID urn:uuid:e952e63e-6bd1-350a-5028-bead8edf1cb7
+UUID urn:uuid:c95b4670-f068-32bf-62fb-a4d566e5a065
 Info 
 Location 
-MakeModel P3055dn - IPP Everywhere
+MakeModel ECOSYS P3055dn, driverless, cups-filters 1.21.6
 DeviceURI ipps://KM58A4DF.local:443/ipp/print
 State Idle
-StateTime 1601457368
-ConfigTime 1601457370
-Type 4180
+StateTime 1601464123
+ConfigTime 1601464123
+Type 8425556
 Accepting Yes
 Shared No
 JobSheets none none
